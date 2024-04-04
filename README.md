@@ -14,7 +14,7 @@ from pandas.tseries.offsets import DateOffset
 from finta import TA
 
 from sklearn.preprocessing import StandardScaler
-# from sklearn.pipeline import Pipeline
+(from sklearn.pipeline import Pipeline)
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import GradientBoostingRegressor
