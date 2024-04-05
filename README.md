@@ -67,28 +67,41 @@ warnings.filterwarnings("ignore")
 
 ###
 
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+
 ## Gradient_Boost
 
 ###
+
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html
 
 ## XGradient_Boost
 
 ###
 
+https://xgboost.readthedocs.io/en/latest/install.html
+
 ## Linear_Regression
 
 ###
+
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
 
 ## Ridge
 
 ###
 
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html
+
 ## Stacking_Models
 
 ###
+
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html
 
 ## Voting_Clasifier
 
 ###
 
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.VotingRegressor.html
 
