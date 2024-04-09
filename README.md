@@ -99,7 +99,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.htm
 
 https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.StackingRegressor.html
 
-## Voting_Clasifier
+## Voting_Classifier
 
 ###
 
