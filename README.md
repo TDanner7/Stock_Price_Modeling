@@ -45,35 +45,42 @@ Grid Search is a hyperparameter technique used in  machine-learning to fine tune
 | ----------------------------------- |                          
 | ![grid](images/gridsearchcv.png)    | 
 
-### 
+###
 https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 
 ## Random Forest
 
+A Random Forest (RF) model utilizes multiple decision trees to help train a model to predict a single output. These models can be used to predict both categorical variables (classification) and continuous variables (regression). This project utilizes regression to try to predict stock prices. RF models use a bagging technique to split the training data into multiple subsets, these subsets are then independently pushed through decision trees. The model then uses majority voting to combine each subsets decision tree result into a single output.
+
+###
 https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
 
 ## Gradient_Boost
 
-###
+Gradient Boost models utilize 'Boosting' which is a way of combining many different simple models into a single complete model. These simple models are often refered to as weak learners because on their own they are not very powerful, but when combined they can create a very complete and capable model. the SK learn gradient boosting regression model uses regression descision trees combined with a calculated loss function to make decisions.
 
+###
 https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html
 
 ## XGradient_Boost
 
-###
+Similar to the SK Learn Gradient Boost, Extreme Gradient Boost uses descision trees and loss functions to help train the model, the difference is that Extreme Gradient Boost creates the decision trees in parallel rather than sequentially. Additionally, Extreme Gradient Boost uses L1 & L2 to regularize the data. Regularization penalizes outlyers and adjusts input weights to help reduce overfitting, generally it minimizes input feature complexity.
 
+###
 https://xgboost.readthedocs.io/en/latest/install.html
 
 ## Linear_Regression
 
-###
+Linear Regression models use one or multiple independent variables, or the variables used to make the prediction, to try to accurately predict the dependent variable. This model from SK Learn uses Ordinary Least Squared Linear Regression, more specifically the model attempts to minimize the total sum of the independent variables squared error to the dependent variable.
 
+###
 https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
 
 ## Ridge
 
-###
+Similar to the standard Linear Regression model, Ridge attempts to minimize the sum of the independent variables total squared error compared to the dependent variable, it differs in its use of l2 regularization. (see XGradient_Boost) 
 
+###
 https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html
 
 
@@ -138,7 +145,11 @@ https://builtin.com/machine-learning/ensemble-model
 
 5.  https://www.kaggle.com/code/jayatou/xgbregressor-with-gridsearchcv
 
-6. https://towardsdatascience.com/combining-tree-based-models-with-a-linear-baseline-model-to-improve-extrapolation-c100bd448628#:~:text=In%20our%20case%20we%20will,the%20go%2Dto%2Dmodel.
+6. https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/
+
+7. https://towardsdatascience.com/combining-tree-based-models-with-a-linear-baseline-model-to-improve-extrapolation-c100bd448628#:~:text=In%20our%20case%20we%20will,the%20go%2Dto%2Dmodel.
+
+8. https://www.nvidia.com/en-us/glossary/xgboost/
 
 
 
