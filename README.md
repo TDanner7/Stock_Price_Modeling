@@ -64,14 +64,14 @@ https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoost
 
 ## XGradient_Boost
 
-Similar to the SK Learn Gradient Boost, Extreme Gradient Boost uses descision trees and loss functions to help train the model, the difference is that Extreme Gradient Boost creates the decision trees in parallel rather than sequentially. Additionally, Extreme Gradient Boost uses L1 & L2 to regularize the data. Regularization penalizes outlyers and adjusts input weights to help reduce overfitting, generally it minimizes input feature complexity.
+Similar to the SK Learn Gradient Boost, Extreme Gradient Boost uses descision trees and loss functions to help train the model, the difference is that Extreme Gradient Boost creates the decision trees in parallel and sequentially at the same time. Additionally, Extreme Gradient Boost uses L1 & L2 to regularize the data. Regularization penalizes outlyers and adjusts input weights to help reduce overfitting, generally it minimizes input feature complexity.
 
 ###
 https://xgboost.readthedocs.io/en/latest/install.html
 
 ## Linear_Regression
 
-Linear Regression models use one or multiple independent variables, or the variables used to make the prediction, to try to accurately predict the dependent variable. This model from SK Learn uses Ordinary Least Squared Linear Regression, more specifically the model attempts to minimize the total sum of the independent variables squared error to the dependent variable.
+Linear Regression models use one or multiple independent variables, or the variables used to make the prediction, to try to accurately predict the dependent variable based on their linear relationship. This model from SK Learn uses Ordinary Least Squared Linear Regression, more specifically the model attempts to minimize the total sum of the independent variables squared errors to the dependent variable.
 
 ###
 https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
